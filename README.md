@@ -30,7 +30,7 @@ To generate a barcode image, run the 'generate_barcode.py' script with the appro
 
     python generate_barcode.py <data> [--barcode_type <type>] [--output_filename <filename>]
 
-1. '<data>': The data you want to encode in the barcode.
+1. 'data': The data you want to encode in the barcode.
 2. '--barcode_type <type>': Optional. The type of barcode to generate. Default is 'code128'. See Supported Barcode Types for available options.
 3. '--output_filename <filename>': Optional. The filename to save the generated barcode image (without extension). Default is 'barcode'.
 
